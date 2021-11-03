@@ -7,12 +7,13 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex:initial;
 }
 
 .header-logo {
-    font-size: 42px;
-    font-weight: extra-bold;
+    font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -30,5 +31,54 @@ a {
     display: flex;
     gap: 12px;
     justify-content: flex-end;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+}
+
+.intro-container {
+    display: flex;
+    background-color: #1F2937;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 32px;
+    flex: initial;
+}
+
+.intro-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-top: 100px;
+    width: 480px;
+    flex-wrap: wrap;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 480px;
+    flex-wrap: wrap;
+}
+
+.intro-img {
+    background-color: #6D747D;
+    height: 250px;
+    width: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 128px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
 }
